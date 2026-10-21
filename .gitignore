@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.DS_Store
+# Uncompressed OpenPII files; the repo stores gzipped shards instead.
+data/raw/openpii_1.5m/data/*.jsonl
+*.tmp.jsonl.gz
